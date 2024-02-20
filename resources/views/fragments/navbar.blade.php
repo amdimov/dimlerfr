@@ -2,7 +2,7 @@
     <div class="container flex-lg-row flex-nowrap align-items-center">
         <div class="navbar-brand w-100">
             <a href="{{url('/')}}">
-                <img src="{{asset('/assets/img/logo-newShade.png')}}" srcset="{{asset('/assets/img/logo-newShade.png')}}" alt="" />
+                <img src="{{asset('/assets/img/logo-newshade.png')}}" srcset="{{asset('/assets/img/logo-newshade.png')}}" alt="" />
             </a>
         </div>
         <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
