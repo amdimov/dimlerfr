@@ -14,15 +14,15 @@
             <div class="col-lg-6">
                 <div class="row gx-md-5 gy-5">
                     <div class="col-12">
-                        <figure class="rounded mx-md-5"><img src="./assets/img/photos/g8.jpg" srcset="./assets/img/photos/g8@2x.jpg 2x" alt=""></figure>
+                        <figure class="rounded mx-md-5"><img src="{{asset('/assets/img/about-us/about-us-1.jpg')}}" srcset="{{asset('/assets/img/about-us/about-us-1.jpg')}}" alt=""></figure>
                     </div>
                     <!--/column -->
                     <div class="col-md-6">
-                        <figure class="rounded"><img src="./assets/img/photos/g9.jpg" srcset="./assets/img/photos/g9@2x.jpg 2x" alt=""></figure>
+                        <figure class="rounded"><img src="{{asset('/assets/img/about-us/about-us-3.jpg')}}" srcset="{{asset('/assets/img/about-us/about-us-3.jpg')}}" alt=""></figure>
                     </div>
                     <!--/column -->
                     <div class="col-md-6">
-                        <figure class="rounded"><img src="./assets/img/photos/g10.jpg" srcset="./assets/img/photos/g10@2x.jpg 2x" alt=""></figure>
+                        <figure class="rounded"><img src="{{asset('/assets/img/about-us/about-us-together.jpg')}}" srcset="{{asset('/assets/img/about-us/about-us-together.jpg')}}" alt=""></figure>
                     </div>
                     <!--/column -->
                 </div>
@@ -30,34 +30,24 @@
             </div>
             <!--/column -->
             <div class="col-lg-6">
-                <h2 class="fs-16 text-uppercase text-muted mb-3 mt-md-n5">ABOUT US?</h2>
-                <h3 class="display-3 mb-5">What can <b>Shurey</b> say about us?</h3>
-                <p class="mb-6">Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed.</p>
+                <h2 class="fs-16 text-uppercase text-muted mb-3 mt-md-n5">QUI SOMMES-NOUS?</h2>
+                <h3 class="display-3 mb-5">A l’origine: Deux beaux-frères, deux professionnels pour vous.</h3>
+                <p class="mb-6">
+                    La société Dimler a été fondée par deux beaux-frères, deux amis:
+                    Vincent, expert en marketing, français.
+                    Aleksander, programmeur professionnel, originaire de Bulgarie. Unis par notre passion commune pour le numérique, nous avons créé cette entreprise avec le rêve de rendre les solutions numériques accessibles à tous. Notre mission : offrir des services de qualité, à moindre coût.
+                    Nous croyons à l’innovation abordale et nous nous engageons à façonner votre avenir numérique le plus vite possible, le mieux possible, le moins cher possible.
+                </p>
                 <div class="row gy-8">
                     <div class="col-md-6">
-                        <div class="d-flex flex-row">
-                            <div>
-                                <img src="./assets/img/icons/solid/share.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-primary me-4" alt="" />
-                            </div>
-                            <div>
-                                <h4 class="mb-1">Our Mission</h4>
-                                <p class="mb-0">Curabitur blandit lacus porttitor ridiculus mus.</p>
-                            </div>
-                        </div>
+                        <h3 class="counter counter-lg mb-1">99.7%</h3>
+                        <h5 class="mb-0">Satisfaction client</h5>
                     </div>
                     <!--/column -->
                     <div class="col-md-6">
-                        <div class="d-flex flex-row">
-                            <div>
-                                <img src="./assets/img/icons/solid/partnership.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-primary me-4" alt="" />
-                            </div>
-                            <div>
-                                <h4 class="mb-1">Our Values</h4>
-                                <p class="mb-0">Curabitur blandit lacus porttitor ridiculus mus.</p>
-                            </div>
-                        </div>
+                        <h3 class="counter counter-lg mb-1">12x</h3>
+                        <h5 class="mb-0">Croissance des revenus</h5>
                     </div>
-                    <!--/column -->
                 </div>
                 <!--/.row -->
             </div>

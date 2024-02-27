@@ -14,12 +14,13 @@
                     <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="600">
                         <h1 class="display-1 mb-5 mx-md-n5 mx-lg-0">Web Design</h1>
                         <p class="lead fs-lg mb-7">
-                            At Dimler, we understand that a website is more than just an online presence—it's the digital face of your business.
-                            Our Web Design services are tailored to elevate your brand and engage your audience effectively.
-                            Whether you're a small business or a large corporation, we have the expertise to bring your vision to life.
+                            Chez Dimler, nous comprenons qu'un site Web est plus qu'une simple présence en ligne, c'est le visage numérique de votre entreprise.
+                            Comme vous venez de le faire, 70,5% des clients effectuent d'abord une recherche sur internet avant d'acheter un produit ou un service.
+                            Nos services de conception Web sont conçus pour rehausser votre marque et engager efficacement votre public. Que vous soyez une petite entreprise, une entreprise familiale ou une grande entreprise,
+                            nous possédons l'expertise nécessaire pour donner vie à votre vision.
                         </p>
                         <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-                            <span><a class="btn btn-primary rounded me-2">Contact Sales</a></span>
+                            <span><a href="{{route('contact-us')}}" class="btn btn-primary rounded me-2">Contact</a></span>
                         </div>
                     </div>
                     <!-- /column -->
@@ -42,8 +43,9 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
                                 <h4>HTML/CSS/JS Development</h4>
                                 <p class="mb-2">
-                                    We craft visually stunning and functionally robust websites using the latest in HTML, CSS, and JavaScript technologies.
-                                    Our focus is on creating intuitive and responsive designs that ensure a seamless user experience on any device.
+                                    Nous créons des sites Web visuellement époustouflants et fonctionnellement robustes en utilisant
+                                    les dernières technologies HTML, CSS et JavaScript. Notre objectif est de créer des conceptions
+                                    intuitives et réactives qui garantissent une expérience utilisateur transparente sur n'importe quel appareil.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -57,8 +59,9 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
                                 <h4>PHP Laravel Solutions</h4>
                                 <p class="mb-2">
-                                    For businesses seeking dynamic and sophisticated web applications, our PHP Laravel development offers customizable, secure, and scalable solutions.
-                                    We leverage this powerful framework to build high-performance websites that meet your specific business needs.
+                                    Pour les entreprises qui recherchent des applications Web dynamiques et sophistiquées,
+                                    notre développement PHP Laravel propose des solutions personnalisables, sécurisées et évolutives. Nous exploitons
+                                    ce cadre puissant pour créer des sites Web performants qui répondent aux besoins spécifiques de votre entreprise.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -72,8 +75,9 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-orange mb-3"  alt="" />
                                 <h4>WordPress Web Development</h4>
                                 <p class="mb-2">
-                                    Ideal for both simplicity and versatility, our WordPress services offer an easy-to-manage platform without compromising on functionality or design.
-                                    From sleek, informative corporate sites to feature-rich eCommerce platforms, we turn your ideas into reality with WordPress.
+                                    Idéals à la fois pour leur simplicité et leur polyvalence, nos services WordPress offrent
+                                    une plateforme facile à gérer sans compromettre la fonctionnalité ou le design. Des sites d’entreprise élégants et informatifs
+                                    aux plateformes de commerce électronique riches en fonctionnalités, nous transformons vos idées en réalité avec WordPress.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -81,7 +85,7 @@
                         <!--/.card -->
                     </div>
                     <!--/column -->
-                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">GET IN TOUCH</a>
+                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">DEMANDE DE CONTACT</a>
                 </div>
                 <!--/.row -->
 
@@ -102,7 +106,7 @@
                                 </a>
                                 <figcaption>
                                     <h5 class="from-top mb-1">WordPress + Woocommerce</h5>
-                                    <p class="from-bottom">Great corporate website with a small e-commerce depratment</p>
+                                    <p class="from-bottom">Excellent site Web d'entreprise avec une petite section e-commerce</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -114,7 +118,8 @@
                                 </a>
                                 <figcaption>
                                     <h5 class="from-top mb-1">PHP with plain HTML+CSS+JS</h5>
-                                    <p class="from-bottom">Loads faster than any other technology and we have a fool control. That significantlly improve the SEO.</p>
+                                    <p class="from-bottom">Charge bien plus rapidement que les autres technologies avec un contrôle complet.
+                                        Permet aussi de développer le SEO.</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -126,7 +131,7 @@
                                 </a>
                                 <figcaption>
                                     <h5 class="from-top mb-1">WordPress Admin Panel</h5>
-                                    <p class="from-bottom">WordPress allows you to manage the content of your website without the necessity of any technical knowledge </p>
+                                    <p class="from-bottom">Wordpress vous permet de contrôler et modifier le contenu de votre site web, sans pour autant avoir de grandes connaissances techniques </p>
                                 </figcaption>
                             </figure>
                         </div>

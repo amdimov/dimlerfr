@@ -13,8 +13,8 @@
             <div class="container pt-18 pt-md-20 pb-21 pb-md-21 text-center">
                 <div class="row">
                     <div class="col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-5 mx-auto">
-                        <h1 class="display-1 text-white mb-3">Get in Touch</h1>
-                        <p class="lead px-xl-10 px-xxl-10">Have any questions? Reach out to us from our contact form and we will get back to you shortly.</p>
+                        <h1 class="display-1 text-white mb-3">Contact</h1>
+                        <p class="lead px-xl-10 px-xxl-10">Avez-vous des questions? Contactez-nous depuis notre formulaire de contact et nous vous répondrons sous peu.</p>
                     </div>
                     <!-- /column -->
                 </div>
@@ -48,7 +48,7 @@
                                                                 <div class="col-md-6">
                                                                     <div class="form-floating mb-4">
                                                                         <input id="form_name" type="text" name="name" class="form-control" placeholder="Jane" required>
-                                                                        <label for="form_name">First Name *</label>
+                                                                        <label for="form_name">Prénom *</label>
                                                                         <div class="valid-feedback"> Looks good! </div>
                                                                         <div class="invalid-feedback"> Please enter your first name. </div>
                                                                     </div>
@@ -57,7 +57,7 @@
                                                                 <div class="col-md-6">
                                                                     <div class="form-floating mb-4">
                                                                         <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required>
-                                                                        <label for="form_lastname">Last Name *</label>
+                                                                        <label for="form_lastname">Nom de famille *</label>
                                                                         <div class="valid-feedback"> Looks good! </div>
                                                                         <div class="invalid-feedback"> Please enter your last name. </div>
                                                                     </div>
@@ -75,7 +75,7 @@
                                                                 <div class="col-md-6">
                                                                     <div class="form-select-wrapper mb-4">
                                                                         <select class="form-select" id="form-select" name="service" required>
-                                                                            <option selected disabled value="">Select a service</option>
+                                                                            <option selected disabled value="">Sélectionnez un service</option>
                                                                             <option value="Web Design">Web Design</option>
                                                                             <option value="E-Commerce">E-Commerce</option>
                                                                             <option value="Digital Marketing">Digital Marketing</option>
@@ -100,14 +100,14 @@
                                                                 <div class="col-12">
                                                                     <div class="form-check mb-4">
                                                                         <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                                                                        <label class="form-check-label" for="invalidCheck"> I agree to <a href="#" class="hover">terms and policy</a>. </label>
-                                                                        <div class="invalid-feedback"> You must agree before submitting. </div>
+                                                                        <label class="form-check-label" for="invalidCheck"> J'accepte les<a href="{{route('terms-and-conditions')}}" class="hover"> termes et conditions</a>. </label>
+                                                                        <div class="invalid-feedback"> Vous devez être d'accord avant de soumettre. </div>
                                                                     </div>
                                                                 </div>
                                                                 <!-- /column -->
                                                                 <div class="col-12">
-                                                                    <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send message">
-                                                                    <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                                                    <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Envoyer le message">
+                                                                    <p class="text-muted"><strong>*</strong>Ces champs sont obligatoires.</p>
                                                                 </div>
                                                                 <!-- /column -->
                                                             </div>
@@ -130,7 +130,7 @@
                                                                 <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
                                                             </div>
                                                             <div>
-                                                                <h5 class="mb-1">Sales Expert</h5>
+                                                                <h5 class="mb-1">Expert des ventes</h5>
                                                                 <address>Vincent Gaessler</address>
                                                             </div>
                                                         </div>
@@ -139,7 +139,7 @@
                                                                 <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
                                                             </div>
                                                             <div>
-                                                                <h5 class="mb-1">Phone</h5>
+                                                                <h5 class="mb-1">Numéro de téléphone</h5>
                                                                 <p>+359 893 342 912</p>
                                                             </div>
                                                         </div>

@@ -14,12 +14,12 @@
                     <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="600">
                         <h1 class="display-1 mb-5 mx-md-n5 mx-lg-0">Copywriting</h1>
                         <p class="lead fs-lg mb-7">
-                            In the realm of digital communication, the power of words is unparalleled. At Dimler, we offer specialized copywriting services that bring your brand's voice to life.
-                            Whether it's crafting compelling product listings, creating persuasive ads content, or producing engaging video scripts and edits,
-                            our team is dedicated to delivering content that resonates with your audience and amplifies your message.
+                            Dans le domaine de la communication numérique, le pouvoir des mots est sans précédent. Chez Dimler, nous proposons des services de rédaction spécialisés qui donnent vie à la voix de votre marque.
+                            Chaque mot, chaque phrase doit être l'étincelle qui illumine les yeux de vos clients.
+                            Qu'il s'agisse de créer des listes de produits convaincantes, de créer du contenu publicitaire attirant ou de produire des scripts et des montages vidéo attrayants, notre équipe se consacre à fournir un contenu qui résonne auprès de votre public et amplifie votre message.
                         </p>
                         <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-                            <span><a class="btn btn-primary rounded me-2">Contact Sales</a></span>
+                            <span><a href="{{route('contact-us')}}" class="btn btn-primary rounded me-2">Contact</a></span>
                         </div>
                     </div>
                     <!-- /column -->
@@ -42,9 +42,8 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
                                 <h4>Product Listing</h4>
                                 <p class="mb-2">
-                                    Our expert copywriters specialize in creating detailed, attractive, and SEO-friendly product listings.
-                                    We understand the art of persuasive writing
-                                    that not only showcases the features and benefits of your products but also elevates your brand and boosts sales.
+                                    Nos rédacteurs se spécialisent dans la création de listes de produits détaillées, attrayantes et optimisées pour le référencement.
+                                    Nous comprenons l'art de l'écriture persuasive qui non seulement met en valeur les caractéristiques et les avantages de vos produits, mais élève également votre marque et stimule les ventes.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -58,9 +57,9 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
                                 <h4>Ads Content Creation</h4>
                                 <p class="mb-2">
-                                    We create compelling ad copy that captures attention and inspires action. Our focus is on crafting messages
-                                    that resonate with your target audience,
-                                    driving engagement and conversion across various platforms, including social media and search engines.
+                                    Nous créons des textes publicitaires convaincants qui captent l’attention et inspirent l’action.
+                                    Notre objectif est de créer des messages qui trouvent un écho auprès de votre public cible,
+                                    en stimulant l'engagement et la conversion sur diverses plateformes, notamment les médias sociaux et les moteurs de recherche.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -74,9 +73,9 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-orange mb-3"  alt="" />
                                 <h4>Video Script Writing and Editing</h4>
                                 <p class="mb-2">
-                                    In today's fast-paced digital landscape, video content is king. Our team not only writes captivating video scripts
-                                    but also offers video editing services to ensure your visual content is as compelling as the story it tells.
-                                    From promotional videos to educational content, we bring your ideas to life in a way that engages and informs.
+                                    Dans le paysage numérique actuel, en évolution rapide, le contenu vidéo est roi.
+                                    Notre équipe écrit non seulement des scripts vidéo captivants, mais propose également des services de montage vidéo pour garantir que votre contenu visuel est aussi convaincant que l'histoire qu'il raconte.
+                                    Des vidéos promotionnelles au contenu éducatif, nous donnons vie à vos idées de manière engageante et efficace.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -84,7 +83,7 @@
                         <!--/.card -->
                     </div>
                     <!--/column -->
-                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">GET IN TOUCH</a>
+                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">DEMANDE DE CONTACT</a>
                 </div>
                 <!--/.row -->
 
@@ -104,8 +103,8 @@
                                     <img style="filter: contrast(150%);" src={{asset('./assets/img/content/copywriting-1.jpg')}} srcset={{asset('./assets/img/content/copywriting-1.jpg')}} alt="" />
                                 </a>
                                 <figcaption>
-                                    <h5 class="from-top mb-1">Social Media Writing</h5>
-                                    <p class="from-bottom">You need someone to manage your accounts in social media? We have a solution for that</p>
+                                    <h5 class="from-top mb-1">Gestion des réseaux sociaux</h5>
+                                    <p class="from-bottom">Vous avez besoin de quelqu’un pour gérer ou créer vos réseaux sociaux ? Nous avons la solution pour ça.</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -117,7 +116,7 @@
                                 </a>
                                 <figcaption>
                                     <h5 class="from-top mb-1">Blog</h5>
-                                    <p class="from-bottom">We can help you with writing blogs for your website</p>
+                                    <p class="from-bottom">Nous pouvons vous aider à écrire vos blogs/newsletter dans votre site internet.</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -128,7 +127,7 @@
                                     <img style="filter: contrast(150%);" src={{asset('./assets/img/content/copywriting-3.jpg')}} srcset={{asset('./assets/img/content/copywriting-3.jpg')}} alt="" />
                                 </a>
                                 <figcaption>
-                                    <h5 class="from-top mb-1">Product Listing</h5>
+                                    <h5 class="from-top mb-1">Liste de produit et description</h5>
                                     <p class="from-bottom"></p>
                                 </figcaption>
                             </figure>

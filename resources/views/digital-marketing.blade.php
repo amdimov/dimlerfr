@@ -14,13 +14,11 @@
                     <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="600">
                         <h1 class="display-1 mb-5 mx-md-n5 mx-lg-0">Digital Marketing</h1>
                         <p class="lead fs-lg mb-7">
-                            In today's fast-paced digital world, a strong online presence is crucial for business growth.
-                            At Dimler, we offer comprehensive digital marketing services designed to increase your visibility,
-                            engage your target audience, and drive growth.
-                            From search engine optimization to content creation, our strategies are tailored to your unique business needs.
+                            Dans le monde numérique en évolution rapide d’aujourd’hui, une forte présence en ligne est cruciale pour la croissance de votre entreprise.
+                            Chez Dimler, nous proposons des services de marketing numérique complets et conçus pour augmenter votre visibilité, engager votre public cible et stimuler la croissance de vos projets.
                         </p>
                         <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-                            <span><a class="btn btn-primary rounded me-2">Contact Sales</a></span>
+                            <span><a href="{{route('contact-us')}}" class="btn btn-primary rounded me-2">Contact</a></span>
                         </div>
                     </div>
                     <!-- /column -->
@@ -43,9 +41,8 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
                                 <h4>SEO (Search Engine Optimization)</h4>
                                 <p class="mb-2">
-                                    We optimize your online presence to rank higher in search engine results, increasing your visibility
-                                    to potential customers. Our SEO strategies are designed to attract quality traffic to your website,
-                                    enhancing your online authority and customer base.
+                                    Nous optimisons votre présence en ligne pour vous positionner plus haut dans les résultats des moteurs de recherche, augmentant ainsi votre visibilité auprès des clients potentiels.
+                                    Nos stratégies de référencement sont conçues pour attirer un trafic de qualité vers votre site Web, améliorant ainsi votre présente en ligne et votre clientèle.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -59,9 +56,8 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
                                 <h4>Google Ads</h4>
                                 <p class="mb-2">
-                                    Leverage the power of paid search with our Google Ads management services. We create targeted ad campaigns
-                                    that put your business in front of
-                                    customers who are actively seeking your products or services, ensuring efficient use of your advertising budget.
+                                    Tirez parti de la puissance de la recherche payante avec nos services de gestion Google Ads.
+                                    Nous créons des campagnes publicitaires ciblées qui mettent votre entreprise devant des clients qui recherchent activement vos produits ou services, garantissant ainsi une utilisation efficace de votre budget publicitaire.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -75,9 +71,8 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-orange mb-3"  alt="" />
                                 <h4>Social Media Marketing</h4>
                                 <p class="mb-2">
-                                    Engage with your audience where they spend their time. Our social media marketing services span across various platforms,
-                                    including Facebook, Instagram, Twitter, and LinkedIn.
-                                    We focus on building your brand's online community, increasing engagement, and driving social media conversions.
+                                    Interagissez avec votre public là où il passe son temps en ligne. Nos services de marketing sur les réseaux sociaux s'étendent sur diverses plateformes, notamment Facebook, Instagram, Twitter et LinkedIn.
+                                    Nous nous concentrons sur la création de la communauté en ligne de votre marque, l'augmentation de l'engagement et la génération de conversions sur les réseaux sociaux.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -85,7 +80,7 @@
                         <!--/.card -->
                     </div>
                     <!--/column -->
-                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">GET IN TOUCH</a>
+                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">DEMANDE DE CONTACT</a>
                 </div>
                 <!--/.row -->
 
@@ -105,8 +100,8 @@
                                     <img style="filter: contrast(150%);" src={{asset('./assets/img/content/digital-marketing-1.jpg')}} srcset={{asset('./assets/img/content/digital-marketing-1.jpg')}} alt="" />
                                 </a>
                                 <figcaption>
-                                    <h5 class="from-top mb-1">Double your online sales</h5>
-                                    <p class="from-bottom">If you are not competing well online, there is a big chance of not being competitive in the offline world as well.</p>
+                                    <h5 class="from-top mb-1">Doublez vos ventes en ligne. </h5>
+                                    <p class="from-bottom">Vous n’êtes pas compétitif en ligne ? Il y a de fortes chances que vous êtes impactés par ce manque dans la vraie vie.</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -118,7 +113,7 @@
                                 </a>
                                 <figcaption>
                                     <h5 class="from-top mb-1">Google Analytics</h5>
-                                    <p class="from-bottom">Analyzing your audience is crucial to capture the engagement of your content and products</p>
+                                    <p class="from-bottom">Analysez votre audience en ligne est crucial pour capturer l’engagement de vos potentiels clients. </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -129,8 +124,8 @@
                                     <img style="filter: contrast(150%);" src={{asset('./assets/img/content/digital-marketing-3.jpg')}} srcset={{asset('./assets/img/content/digital-marketing-3.jpg')}} alt="" />
                                 </a>
                                 <figcaption>
-                                    <h5 class="from-top mb-1">Digital Markeintg Experience</h5>
-                                    <p class="from-bottom">Our team doesn't afraid to get their hands dirty when it comes to online marketing. Don't hesitate to contact us for any questions and consultation.</p>
+                                    <h5 class="from-top mb-1">Expérience Digital Marketing </h5>
+                                    <p class="from-bottom">Notre équipe ne craint pas de se salir les mains pour vous. Notre expérience dans le marketing digital nous permet de proposer des services à la hauteur de vos besoins et de vos attentes.</p>
                                 </figcaption>
                             </figure>
                         </div>

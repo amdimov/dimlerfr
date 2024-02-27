@@ -42,13 +42,16 @@ Route::get('/services/design', function () {
     return view('design');
 })->name('design');
 
-Route::get('/about-us', function () {
+Route::get('/notre-histoire', function () {
     return view('about-us');
 })->name('about-us');
 
-Route::get('/contact-us', function () {
+Route::get('/contact', function () {
     return view('contact-us');
 })->name('contact-us');
+Route::get('/terms-and-conditions', function () {
+    return view('terms-and-conditions');
+})->name('terms-and-conditions');
 
 Route::post('/contact-us', [EmailController::class, 'contactUs'])->name('contact.form');
 Route::post('/newsletter', [EmailController::class, 'newsLetter'])->name('newsletter');

@@ -14,13 +14,13 @@
                     <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="600">
                         <h1 class="display-1 mb-5 mx-md-n5 mx-lg-0">ERP Software Solutions</h1>
                         <p class="lead fs-lg mb-7">
-                            In a world where efficiency and data integration are key to business success, our ERP (Enterprise Resource Planning)
-                            Software solutions stand out. At Dimler, we specialize in developing robust, scalable,
-                            and custom ERP software that streamlines your business processes and enhances productivity.
-                            Utilizing cutting-edge technologies and platforms, we deliver solutions that are as unique as your business.
+                            L'efficacité et l'intégration des données sont essentielles au succès d'une entreprise.
+                            Nos solutions logicielles ERP (Enterprise Resource Planning) se démarquent.
+                            Chez Dimler, nous sommes spécialisés dans le développement de logiciels ERP robustes, évolutifs et personnalisés qui rationalisent vos processus commerciaux et améliorent la productivité. En utilisant des technologies et des plateformes de pointe, nous proposons des solutions aussi uniques que votre entreprise.
+
                         </p>
                         <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-                            <span><a class="btn btn-primary rounded me-2">Contact Sales</a></span>
+                            <span><a href="{{route('contact-us')}}" class="btn btn-primary rounded me-2">Contact</a></span>
                         </div>
                     </div>
                     <!-- /column -->
@@ -43,9 +43,8 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
                                 <h4>Java-Based ERP Development</h4>
                                 <p class="mb-2">
-                                    We harness the power of Java to build reliable and secure ERP systems.
-                                    Known for its scalability and robustness, Java enables us
-                                    to create enterprise solutions that can handle complex business processes and large amounts of data with ease.
+                                    Nous exploitons la puissance de Java pour créer des systèmes ERP fiables et sécurisés.
+                                    Connu pour son évolutivité et sa robustesse, Java nous permet de créer des solutions d'entreprise capables de gérer facilement des processus métier complexes et de grandes quantités de données.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -59,9 +58,8 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
                                 <h4>Spring Boot for Agile Development</h4>
                                 <p class="mb-2">
-                                    Utilizing Spring Boot, we develop ERP applications that are agile, scalable, and easy to maintain.
-                                    This modern framework allows for rapid development and deployment,
-                                    ensuring that your custom ERP solution is up and running in minimal time.
+                                    Grâce à Spring Boot, nous développons des applications ERP rapides, évolutives et faciles à maintenir.
+                                    Ce cadre moderne permet un développement et un déploiement rapides, garantissant que votre solution ERP personnalisée est opérationnelle en un minimum de temps.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -75,9 +73,8 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-orange mb-3"  alt="" />
                                 <h4>Amazon Web Services (AWS) Integration</h4>
                                 <p class="mb-2">
-                                    Leveraging the vast capabilities of AWS, we ensure that your ERP system is not only powerful
-                                    but also highly available and scalable. AWS’s cloud infrastructure provides the reliability
-                                    and flexibility needed to support ERP solutions in a secure and cost-effective manner..
+                                    En tirant parti des vastes capacités d'AWS, nous garantissons que votre système ERP est non seulement puissant, mais également hautement disponible et évolutif.
+                                    L'infrastructure cloud d'AWS offre la fiabilité et la flexibilité nécessaires pour prendre en charge les solutions ERP de manière sécurisée et rentable.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -85,7 +82,7 @@
                         <!--/.card -->
                     </div>
                     <!--/column -->
-                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">GET IN TOUCH</a>
+                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">DEMANDE DE CONTACT</a>
                 </div>
                 <!--/.row -->
 
@@ -106,7 +103,7 @@
                                 </a>
                                 <figcaption>
                                     <h5 class="from-top mb-1">Data Management</h5>
-                                    <p class="from-bottom">Managing your company's data is one of the biggest challenges to every enterprise. We can help with that too.</p>
+                                    <p class="from-bottom">Gérer les données de votre entreprise est un challenge. Un programme qui s’occupe de ça pour vous ? Nous sommes là pour ça.</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -117,9 +114,10 @@
                                     <img style="filter: contrast(150%);" src={{asset('./assets/img/content/erp-2.jpg')}} srcset={{asset('./assets/img/content/erp-2.jpg')}} alt="" />
                                 </a>
                                 <figcaption>
-                                    <h5 class="from-top mb-1">Connect the dots</h5>
-                                    <p class="from-bottom">If your company's is fighting on multiple fields, we can help with centralize all the data in one single software,
-                                        which would help you to make the best management decisions.</p>
+                                    <h5 class="from-top mb-1">Reliez les points</h5>
+                                    <p class="from-bottom">Votre entreprise se bat peut-être sur plusieurs marchés ?
+                                        Nous pouvons vous aider à centraliser toutes vos données dans un seul programme, pour prendre les meilleures décisions que votre entreprise doit prendre
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -130,8 +128,8 @@
                                     <img style="filter: contrast(150%);" src={{asset('./assets/img/content/erp-3.jpg')}} srcset={{asset('./assets/img/content/erp-3.jpg')}} alt="" />
                                 </a>
                                 <figcaption>
-                                    <h5 class="from-top mb-1">Printing House Software</h5>
-                                    <p class="from-bottom">We made a custom ERP online solution for managing the sales, production and operational expenses</p>
+                                    <h5 class="from-top mb-1">Logiciel dédié</h5>
+                                    <p class="from-bottom">Nous avons créé un logiciel personnalisé ERP en ligne pour gérer vos ventes, votre production et vos dépenses</p>
                                 </figcaption>
                             </figure>
                         </div>

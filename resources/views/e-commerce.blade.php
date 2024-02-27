@@ -14,13 +14,15 @@
                     <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="600">
                         <h1 class="display-1 mb-5 mx-md-n5 mx-lg-0">E-Commerce Solutions</h1>
                         <p class="lead fs-lg mb-7">
-                            In the digital era, an effective e-commerce platform is key to business success.
-                            At Dimler, we specialize in creating custom e-commerce solutions that are not just about selling products
-                            but also about offering a memorable online shopping experience. Our services are
-                            designed to cater to businesses looking to establish or enhance their online presence and sales capabilities.
+                            À l’ère du numérique, une plateforme de e-commerce efficace est la clé du succès d’une entreprise.
+                            Chez Dimler, nous nous spécialisons dans la création de solutions de commerce électronique personnalisées qui ne visent pas seulement à vendre des produits pour augmenter votre taux de conversion,
+                            mais également à offrir une expérience d'achat en ligne mémorable.
+                            Nos services sont conçus pour répondre aux entreprises qui cherchent à établir ou à améliorer leur présence en ligne et leurs capacités de vente.
+
+
                         </p>
                         <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-                            <span><a class="btn btn-primary rounded me-2">Contact Sales</a></span>
+                            <span><a href="{{route('contact-us')}}" class="btn btn-primary rounded me-2">Contact</a></span>
                         </div>
                     </div>
                     <!-- /column -->
@@ -43,9 +45,10 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
                                 <h4>WordPress & WooCommerce</h4>
                                 <p class="mb-2">
-                                    We integrate the flexibility of WordPress with the power of WooCommerce to create user-friendly, scalable,
-                                    and engaging online stores. Whether you're starting
-                                    a new e-commerce business or want to enhance an existing one, our solutions are tailored to meet your unique needs.
+                                    Nous intégrons la flexibilité de WordPress à la puissance de
+                                    WooCommerce pour créer des boutiques en ligne conviviales, évolutives et attrayantes.
+                                    Que vous démarriez une nouvelle entreprise de e-commerce ou que vous souhaitiez améliorer une entreprise existante,
+                                    nos solutions sont adaptées pour répondre à vos besoins.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -59,10 +62,10 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
                                 <h4>Shopify Development</h4>
                                 <p class="mb-2">
-                                    For those seeking a comprehensive e-commerce platform, our Shopify development services offer a perfect
-                                    blend of ease-of-use and customization. From setting up your online store to customizing themes
-                                    and adding advanced features,
-                                    we ensure your Shopify site stands out in the crowded online marketplace.
+                                    Pour ceux qui recherchent une plateforme de commerce électronique complète, nos services de développement
+                                    Shopify offrent un mélange parfait de facilité d'utilisation et de personnalisation.
+                                    De la configuration de votre boutique en ligne à la personnalisation des thèmes et à l'ajout de fonctionnalités avancées,
+                                    nous veillons à ce que votre site Shopify se démarque sur le marché en ligne très fréquenté.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -76,9 +79,8 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-orange mb-3"  alt="" />
                                 <h4>Amazon Marketplace Management</h4>
                                 <p class="mb-2">
-                                    Leveraging the vast audience of Amazon, we help you manage your presence on one of the world's largest
-                                    e-commerce platforms. Our services include storefront setup,
-                                    product listing optimization, and strategic marketing to maximize your visibility and sales on Amazon.
+                                    En tirant parti de la vaste audience d'Amazon, nous vous aidons à gérer votre présence sur l'une des plus grandes plateformes de commerce électronique au monde.
+                                    Nos services incluent la configuration de votre vitrine, l'optimisation des listes de produits et le marketing stratégique pour maximiser votre visibilité et vos ventes sur Amazon.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -86,7 +88,7 @@
                         <!--/.card -->
                     </div>
                     <!--/column -->
-                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">GET IN TOUCH</a>
+                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">DEMANDE DE CONTACT</a>
                 </div>
                 <!--/.row -->
 
@@ -107,7 +109,7 @@
                                 </a>
                                 <figcaption>
                                     <h5 class="from-top mb-1">WordPress + Woocommerce</h5>
-                                    <p class="from-bottom">E-commerce website</p>
+                                    <p class="from-bottom">Site web e-commerce dynamique et attrayants.</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -119,7 +121,7 @@
                                 </a>
                                 <figcaption>
                                     <h5 class="from-top mb-1">WordPress + Woocommerce</h5>
-                                    <p class="from-bottom">E-commerce website</p>
+                                    <p class="from-bottom">E-commerce pour tous vos produits, pour tout vos services</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -131,7 +133,7 @@
                                 </a>
                                 <figcaption>
                                     <h5 class="from-top mb-1">Shopify</h5>
-                                    <p class="from-bottom">Easy and quick way to get into e-commerce world</p>
+                                    <p class="from-bottom">Un moyen rapide et facile d’accès pour se lancer dans le monde de l’e-commerce.</p>
                                 </figcaption>
                             </figure>
                         </div>

@@ -14,12 +14,12 @@
                     <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="600">
                         <h1 class="display-1 mb-5 mx-md-n5 mx-lg-0">Design Services</h1>
                         <p class="lead fs-lg mb-7">
-                            At Dimler, we believe that great design is the cornerstone of effective communication and brand expression.
-                            Our design services are crafted to capture the essence of your brand and communicate it visually in the most compelling way. From creating eye-catching banners to professional product photography and innovative 3D rendering,
-                            our team brings a blend of creativity and technical expertise to every project.
+                            Tout le monde sait qu’un design de qualité est la pierre angulaire d’une communication et d’une expression de marque efficaces.
+                            Nos services de conception sont conçus pour capturer l’essence de votre marque et la communiquer visuellement de la manière la plus convaincante.
+                            Qu'il s'agisse de créer des bannières accrocheuses, des logos ou des photographies de produits professionnelles et un rendu 3D innovant, notre équipe apporte un mélange de créativité et d'expertise technique à chaque projet.
                         </p>
                         <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-                            <span><a class="btn btn-primary rounded me-2">Contact Sales</a></span>
+                            <span><a href="{{route('contact-us')}}" class="btn btn-primary rounded me-2">Contact</a></span>
                         </div>
                     </div>
                     <!-- /column -->
@@ -42,8 +42,8 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
                                 <h4>Banner Design</h4>
                                 <p class="mb-2">
-                                    Whether for digital advertising, social media, or print, our banner designs are tailored to grab attention and make a lasting impression.
-                                    We focus on creating visually stunning banners that align with your brand identity and communicate your message effectively.
+                                    Que ce soit pour la publicité numérique, les réseaux sociaux ou l'impression, nos conceptions de bannières sont conçues pour attirer l'attention et faire une impression durable.
+                                    Nous nous concentrons sur la création de bannières visuellement époustouflantes qui correspondent à votre identité de marque et communiquent efficacement votre message.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -57,9 +57,8 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
                                 <h4>Product Photography</h4>
                                 <p class="mb-2">
-                                    High-quality product photography is crucial for showcasing the details and quality of your products.
-                                    Our professional photography services ensure that your products are captured in the best light,
-                                    providing clear, attractive, and persuasive imagery for your marketing and e-commerce efforts.
+                                    Une photographie de produits de haute qualité est cruciale pour mettre en valeur les détails et la qualité de vos produits.
+                                    Nos services de photographie professionnels garantissent que vos produits sont capturés sous le meilleur éclairage, fournissant des images claires, attrayantes et convaincantes pour vos efforts de marketing et de commerce électronique.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -73,9 +72,8 @@
                                 <img src={{asset('./assets/img/icons/lineal/browser.svg')}} class="svg-inject icon-svg icon-svg-md text-orange mb-3"  alt="" />
                                 <h4>3D Rendering</h4>
                                 <p class="mb-2">
-                                    Elevate your visual content with our 3D rendering services. Ideal for product demonstrations, architectural visualizations,
-                                    or interactive media, our 3D renderings provide a realistic and immersive experience.
-                                    We use the latest technology to create detailed, accurate, and engaging 3D images that bring your concepts to life.
+                                    Élevez votre contenu visuel avec nos services de rendu 3D. Idéals pour les démonstrations de produits, les visualisations architecturales ou les médias interactifs, nos rendus 3D offrent une expérience réaliste et immersive.
+                                    Nous utilisons les dernières technologies pour créer des images 3D détaillées, précises et attrayantes qui donnent vie à vos concepts.
                                 </p>
                             </div>
                             <!--/.card-body -->
@@ -83,7 +81,7 @@
                         <!--/.card -->
                     </div>
                     <!--/column -->
-                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">GET IN TOUCH</a>
+                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-outline-primary rounded-pill">DEMANDE DE CONTACT</a>
                 </div>
                 <!--/.row -->
 
@@ -103,8 +101,8 @@
                                     <img style="filter: contrast(150%);" src={{asset('./assets/img/content/design-1.jpg')}} srcset={{asset('./assets/img/content/design-1.jpg')}} alt="" />
                                 </a>
                                 <figcaption>
-                                    <h5 class="from-top mb-1">Logo Design</h5>
-                                    <p class="from-bottom">We can make amazing logo with a harmony of your company identity.</p>
+                                    <h5 class="from-top mb-1">Design de logo</h5>
+                                    <p class="from-bottom">Nous pouvons créer pour vous des logos magnifiques et en harmonie avec votre identité d’enteprise.</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -115,8 +113,8 @@
                                     <img style="filter: contrast(150%);" src={{asset('./assets/img/content/design-2.jpg')}} srcset={{asset('./assets/img/content/design-2.jpg')}} alt="" />
                                 </a>
                                 <figcaption>
-                                    <h5 class="from-top mb-1">Banners</h5>
-                                    <p class="from-bottom">If you are advertising online, or you are making ad campaign with promotional products, and flyers, our dedicated team is here for you. </p>
+                                    <h5 class="from-top mb-1">Bannières</h5>
+                                    <p class="from-bottom">Si vous faites de la publicité en ligne ou des produits promotionnels ou des flyers, notre équipe dédiée est là pour vous</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -127,8 +125,8 @@
                                     <img style="filter: contrast(150%);" src={{asset('./assets/img/content/design-3.jpg')}} srcset={{asset('./assets/img/content/design-3.jpg')}} alt="" />
                                 </a>
                                 <figcaption>
-                                    <h5 class="from-top mb-1">Corporate Video</h5>
-                                    <p class="from-bottom">Our professional filmmakers could help you by shooting a great high-quality video of your team and company</p>
+                                    <h5 class="from-top mb-1">Vidéo d’entreprise</h5>
+                                    <p class="from-bottom">Nos réalisateurs professionnels peuvent faire pour vous des vidéos de qualité pour votre entreprise.</p>
                                 </figcaption>
                             </figure>
                         </div>

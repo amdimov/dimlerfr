@@ -7,23 +7,24 @@
         </div>
         <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
             <div class="offcanvas-header d-lg-none">
-                <a href="{{url('/')}}"><img src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" /></a>
+                <a href="{{url('/')}}"><img src="{{asset('/assets/img/logo-newshade.png')}}" srcset="{{asset('/assets/img/logo-newshade.png')}}" alt="" /></a>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="{{url("/")}}">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{url("/")}}">Accueil</a></li>
                     <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
                         <ul class="dropdown-menu">
-                            <li class="nav-item"><a class="dropdown-item" href="{{url("/services/web-design")}}">Web Design</a></li>
-                            <li class="nav-item"><a class="dropdown-item" href="{{url("/services/e-commerce")}}">E-Commerce</a></li>
-                            <li class="nav-item"><a class="dropdown-item" href="{{url("/services/digital-marketing")}}">Digital Marketing</a></li>
-                            <li class="nav-item"><a class="dropdown-item" href="{{url("/services/erp")}}">ERP Software</a></li>
-                            <li class="nav-item"><a class="dropdown-item" href="{{url("/services/copywriting")}}">Copywriting</a></li>
-                            <li class="nav-item"><a class="dropdown-item" href="{{url("/services/design")}}">Design</a></li>
+                            <li class="nav-item"><a class="dropdown-item" href="{{route('web-design')}}">Web Design</a></li>
+                            <li class="nav-item"><a class="dropdown-item" href="{{route('e-commerce')}}">E-Commerce</a></li>
+                            <li class="nav-item"><a class="dropdown-item" href="{{route('digital-marketing')}}">Digital Marketing</a></li>
+                            <li class="nav-item"><a class="dropdown-item" href="{{route('erp')}}">ERP Software</a></li>
+                            <li class="nav-item"><a class="dropdown-item" href="{{route('copywriting')}}">Copywriting</a></li>
+                            <li class="nav-item"><a class="dropdown-item" href="{{route('design')}}">Design</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="{{url("/about-us")}}">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('about-us')}}">Notre histoire</a></li>
+                    <li class="nav-item d-lg-none" style=""><a class="nav-link" href="{{route('contact-us')}}">Contact</a></li>
                 </ul>
                 <!-- /.navbar-nav -->
 
@@ -35,7 +36,7 @@
             <ul class="navbar-nav flex-row align-items-center ms-auto">
 
                 <li class="nav-item d-none d-md-block">
-                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-primary rounded-pill">Contact Us</a>
+                    <a href="{{route('contact-us')}}" class="btn btn-sm btn-primary rounded-pill">Contact</a>
                 </li>
                 <li class="nav-item d-lg-none">
                     <button class="hamburger offcanvas-nav-btn"><span></span></button>
